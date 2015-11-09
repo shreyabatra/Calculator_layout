@@ -1,0 +1,335 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+    android:id="@+id/redbox1"
+
+    >
+
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/Big_green_box"
+        android:background="#000"
+        android:layout_weight="3"
+        android:layout_margin="30dp">
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Type Here"
+        android:textColor="#ffffff"
+
+        />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="x"
+            android:layout_gravity="right"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/big_blue_box"
+        android:background="#000"
+        android:layout_weight="7"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/orange_box1"
+            android:background="#fb0"
+            android:orientation="vertical"
+            android:layout_weight="5">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="sin"
+                style="@style/gangnamestyle"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="cos"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                style="@style/gangnamestyle"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="tan"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                style="@style/gangnamestyle"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="π"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                style="@style/gangnamestyle"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="!"
+                android:layout_weight="1"
+                android:layout_gravity="right"
+                style="@style/gangnamestyle"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/orange_box2"
+            android:background="#fe0"
+            android:orientation="vertical"
+            android:layout_weight="5"
+            android:layout_marginRight="10dp">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="In"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                style="@style/gangnamestyle"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="log"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                style="@style/gangnamestyle"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="e"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                style="@style/gangnamestyle"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="^"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                style="@style/gangnamestyle"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="§"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                style="@style/gangnamestyle"
+                android:id="@+id/" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/Blackbox"
+            android:background="#000"
+            android:layout_weight="21"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/green_box1"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="9"
+                    style="@style/gangnamestyle3"
+                   />
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="8"
+                    style="@style/gangnamestyle3"
+                    />
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="7"
+                    style="@style/gangnamestyle3"
+                     />
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="+"
+                   style="@style/gangnamestyle2" />
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="("
+                    style="@style/gangnamestyle2" />
+
+
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/green_box2"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="4"
+                    style="@style/gangnamestyle3"/>
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="5"
+                    style="@style/gangnamestyle3"
+                    />
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="6"
+                    style="@style/gangnamestyle3"
+                     />
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="*"
+                    style="@style/gangnamestyle2" />
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=")"
+                    style="@style/gangnamestyle2" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Blue_box"
+                android:orientation="horizontal"
+                android:layout_weight="15"
+               >
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/red"
+                    android:orientation="vertical"
+                    android:layout_weight="3"
+                    >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/green_box3"
+                    android:orientation="horizontal"
+                    android:layout_weight="1">
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1"
+                        android:layout_weight="1"
+                        style="@style/gangnamestyle3"/>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2"
+                        android:layout_weight="1"
+                        style="@style/gangnamestyle3"/>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3"
+                        android:layout_weight="1"
+                        style="@style/gangnamestyle3"
+                        />
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="-"
+                        android:layout_weight="1"
+                    style="@style/gangnamestyle3"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/green_box4"
+                    android:orientation="horizontal"
+                    android:layout_weight="1">
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:layout_weight="4"
+                    style="@style/gangnamestyle3"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="."
+                        android:layout_weight="15"
+                        style="@style/gangnamestyle3"/>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="+"
+                        android:layout_weight="15"
+                        style="@style/gangnamestyle3"/>
+
+                </LinearLayout>
+            </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/equals">
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="="
+                        style="@style/gangnamestyle2"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
